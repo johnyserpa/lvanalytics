@@ -1,0 +1,24 @@
+{
+    "name": "lvengine/analytics",
+    "description": "Fetch data from GA",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "João Serpa | LVEngine",
+            "email": "joaoserpa@lvengine.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4",
+        "google/apiclient": "^2.0"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "Analytics\\": "src/Analytics/"
+        }
+    }
+}

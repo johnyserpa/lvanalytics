@@ -8,7 +8,7 @@
             "email": "joaoserpa@lvengine.com"
         }
     ],
-    "type": "project",
+    "type": "library",
     "require": {
 		"php": ">=5.4",
         "google/apiclient": "^2.0"
